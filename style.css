@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+nav{
+    display: flex;
+   
+    justify-content: space-evenly;
+    background-color: grey;
+}
+
+nav .logo{
+    margin: 12px 10px 10px 10px;
+    justify-content: left;
+    font-size: 23px;
+}
+
+body {
+    /* background-color: black; */
+}
+
+.opt{
+    display: flex;
+}
+.opt div{
+    display: flex;
+    /* justify-content:space-evenly; */
+    margin:15px 10px 10px 10px;
+}
+
+nav .contact{
+    margin: 12px 10px 10px 10px;
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    font-size: 18px;
+}
+
+nav .contact:hover{
+    opacity: 70%;
+    background-color: rgb(163, 159, 159);
+}
+.intro{
+    margin-top: 170px;
+    margin-left: 100px;
+}
+.hey{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.intro .about{
+    color: white;
+    background-color: black;
+    margin: 12px 10px 10px 10px;
+    border: solid 2px;
+    border-radius: 10px;
+    /* padding: 10px 10px 10px 10px; */
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    
+}
+.info{
+    font-size: 20px;
+}
+
+.intro .about:hover{
+    opacity: 70%;
+}
+
+.button{
+    display: flex;
+}
+.work{
+    margin: 12px 10px 10px 10px;
+    /* padding: 10px 10px 10px 10px; */
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    border: solid white 2px ;
+}
+.work:hover{
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.main{
+    display: flex;
+    /* background-image: url(./bg-9-full.jpg); */
+}
+
+.main .img{
+    margin-left: 300px;
+    margin-top: 200px;
+    background-image: none;
+}
+
+.imgcont{
+    display: flex;
+}
+
+.links{
+    margin-top: 500px;
+    margin-left: 100px;
+}
+
+.linkedin{
+    /* border: solid 2px; */
+    width: 30px;
+    height: 30px;
+    /* border-radius: 50px; */
+    font-size: 40px;
+}
+
+.download{
+    position: absolute;
+    left: -150px;
+    top: 150px;
+    font-size: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    align-content: center;
+    text-align: center;
+}
